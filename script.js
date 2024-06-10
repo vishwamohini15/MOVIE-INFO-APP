@@ -9,7 +9,7 @@ const getMovieInfo=async(movie)=>{
      try {
      
 const myApikey="6727cb93";
-const url=`http://www.omdbapi.com/?apikey=${myApikey}&t=${movie}`
+const url=`https://www.omdbapi.com/?apikey=${myApikey}&t=${movie}`
 
 const response= await fetch(url)
 
